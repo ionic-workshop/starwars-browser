@@ -1,0 +1,25 @@
+
+<ion-navbar *navbar>
+  <ion-title>
+    Page Detail
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="page2">
+  <ion-list>
+    <ion-item *ngFor="#f of films">
+      {{f.title}}
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item *ngFor="#s of species">
+      {{s.name}}
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item *ngFor="#s of starships">
+      {{s.name}}
+    </ion-item>
+  </ion-list>
+  <pre>{{person | json}}</pre>
+</ion-content>

@@ -13,6 +13,6 @@
     "strip-sourcemap-loader": "0.0.1",
     "typescript": "^1.7.5"
   },
-  "name": "meetup-client",
-  "description": "meetup-client: An Ionic project"
+  "name": "starwars-browser",
+  "description": "starwars-browser: An Ionic project"
 }
